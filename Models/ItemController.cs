@@ -6,7 +6,7 @@ namespace BasketApi.Controllers
 {
 
 
-	[Route("api/[controller]")]// e.g http://localhost:5000/api/Basket
+	[Route("api/[controller]")]// e.g /api/Basket
 	public class BasketController : Controller
 	{
         private readonly ItemContext _context;
@@ -46,7 +46,7 @@ namespace BasketApi.Controllers
         }
 
 
-		// Add Item to Basket, uses HTTP POST Method e.g http://localhost:5000/api/Basket
+		// Add Item to Basket, uses HTTP POST Method e.g /api/Basket
 		[HttpPost] 
 		public IActionResult Add([FromBody] Items item)
 		{
@@ -65,7 +65,7 @@ namespace BasketApi.Controllers
             return CreatedAtRoute("GetItem", new { id = item.Id  }, item);
 		}
 
-		// Update Items, Use HTTP PUT Request e.g http://localhost:5000/api/Basket/1 
+		// Update Items, Use HTTP PUT Request e.g /api/Basket/1 
 		[HttpPut("{id}")]
 		public IActionResult Update(int id, [FromBody] Items item)
 		{
@@ -89,7 +89,7 @@ namespace BasketApi.Controllers
 			_context.SaveChanges();
 			return new NoContentResult();
 		}
-		// Remove Items, Uses HTTP Delete Request e.g http://localhost:5000/api/Basket/1
+		// Remove Items, Uses HTTP Delete Request e.g /api/Basket/1
 		[HttpDelete("{id}")]
         public IActionResult Delete(int id)
 		{
