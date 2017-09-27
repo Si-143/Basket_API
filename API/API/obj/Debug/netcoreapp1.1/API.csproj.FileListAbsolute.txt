@@ -1,0 +1,10 @@
+/Users/hin100/Projects/API/API/bin/Debug/netcoreapp1.1/API.deps.json
+/Users/hin100/Projects/API/API/bin/Debug/netcoreapp1.1/API.runtimeconfig.json
+/Users/hin100/Projects/API/API/bin/Debug/netcoreapp1.1/API.runtimeconfig.dev.json
+/Users/hin100/Projects/API/API/bin/Debug/netcoreapp1.1/API.dll
+/Users/hin100/Projects/API/API/bin/Debug/netcoreapp1.1/API.pdb
+/Users/hin100/Projects/API/API/obj/Debug/netcoreapp1.1/API.csproj.CoreCompileInputs.cache
+/Users/hin100/Projects/API/API/obj/Debug/netcoreapp1.1/API.AssemblyInfo.cs
+/Users/hin100/Projects/API/API/obj/Debug/netcoreapp1.1/API.dll
+/Users/hin100/Projects/API/API/obj/Debug/netcoreapp1.1/API.pdb
+/Users/hin100/Projects/API/API/obj/Debug/netcoreapp1.1/API.csprojResolveAssemblyReference.cache
